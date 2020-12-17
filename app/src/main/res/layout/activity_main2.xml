@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call someone."
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:id="@+id/logo"
+        android:textColor="#009dff"/>
+    //User 1
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/timeToCall1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Time to Call"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="380dp"
+        android:text="hhh" />
+
+    <TextView
+        android:id="@+id/user2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="420dp"
+        android:text="hhh" />
+
+    <TextView
+        android:id="@+id/user3"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="460dp"
+        android:text="hhh" />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@drawable/btn_color"
+        android:text="Make A Call" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/catlogo"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        android:layout_marginTop="530dp"/>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp" >
+
+
+
+    //User 1
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:hint="Phone" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/startTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Start time"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/endTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="End time"
+                android:focusable="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="   User 1   "
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"
+        android:textSize="17sp" />
+
+
+    //User 2
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Name"
+                />
+
+            <EditText
+                android:id="@+id/phone2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Phone" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/startTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Start time"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/endTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="End time"
+                android:focusable="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:text="   User 2   "
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"
+        android:textSize="17sp" />
+
+
+    //User 3
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="320dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/phone3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Phone" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/startTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="Start time"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/endTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="6"
+                android:hint="End time"
+                android:focusable="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:text="   User 3   "
+        android:layout_marginLeft="15dp"
+        android:background="#ffffff"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@drawable/btn_color"
+        android:text="Add" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/catlogo"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:layout_marginTop="520dp"/>
+
+</RelativeLayout>
+
+
